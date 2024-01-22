@@ -1,4 +1,4 @@
-use toeiconline;
+"use toeiconline;
 create table user (
 	userid bigint not null primary key auto_increment,
     name varchar(255) null,
@@ -10,4 +10,4 @@ create table user (
 create table role (
 	roleid bigint not null primary key,
     name varchar(100) null
-);
+);"
